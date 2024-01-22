@@ -1,0 +1,58 @@
+#loginModal {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #232930d6;
+  max-width: 300px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 4px solid  #fec601ff;
+  visibility:hidden;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 5%;
+}
+.sign{
+  color: rgb(110, 228, 243);
+  font-size: 20px;
+  font-weight: bold;
+}
+.in{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+button {
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.close {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: transparent;
+}
+button.close:hover{
+  color: #92dce5ff;
+}
+button.submit {
+  background-color: #7A7265;
+}
+button.submit:hover{
+  color: #92dce5ff;
+}
+
+

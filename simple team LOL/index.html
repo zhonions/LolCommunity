@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/login.css">
+<link rel="stylesheet" href="assets/index.css">
+
+<script src="https://kit.fontawesome.com/17ad62604a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="assets/slide1.jpeg" width="100%" height="8%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="assets/slide2.jpg" width="100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="assets/slide3.jpg" width="100%">
+</div>
+</div>
+
+<nav>
+  <ul>
+    <li class="sparator-logo">
+      <a href="index.html">
+      <img src="assets/logo.png" alt="Mancos Gaming" width="50px">
+      
+    </a>
+    </li>
+ <li>
+   <a href="news.html">News</a>
+ </li>
+</li>
+<li class="dropdown">
+  <a href="toornament.html">
+    <button class="dropbtn">
+    Toornament <i class="fa-solid fa-plus"></i>
+  </a>
+   
+  </button>
+  <div class="dropdown-content">
+    <a href="tournaments-teams.html">Teams</a>
+    <a href="tournaments-player.html">Players</a>
+  </div>
+</li>
+<li class="dropdown">
+  <a href="community.html">
+    <button class="dropbtn">Communnity
+      <i class="fa-solid fa-plus"></i>
+  </a>
+  </button>
+  <div class="dropdown-content">
+    <a href="teams-community.html">Teams</a>
+    <a href="player-community.html">Players</a>
+  </div>
+</li>
+</ul>
+<ul>
+  <li>
+    <button onclick="toggleModal()" style="background-color: transparent;">
+      <i class="fa-solid fa-user fa-xl"></i>
+    </button>
+  </li>
+</ul>
+</nav>
+</header>
+
+<div id="loginModal">
+  <div>
+      <span class="sign">Sign <span class="in"> in</span>
+          <button class="close" onclick="toggleModal()">
+            <i class="fa-solid fa-x fa-lg"></i>
+        </button>
+      </span>
+      <form style="padding-top: 10%;" method="get">
+          <input type="email" placeholder="Email" id="email" name="email" required>
+          <input type="password" placeholder="Password" id="password" name="password" required>
+          <button class="submit" type="submit">Sign in</button>
+      </form>
+  </div>
+
+</div>
+  <div style="padding-left:16px">
+   <h2>Mancos Gaming</h2>
+    <p>Os Mancos Gaming são uma organização de equipas de LOL.</p>
+    <p>Lorem ipsum dolor sit amet.
+    </p>
+
+  </div>
+  <script src="assets/java.js"></script>
+</body>
+</html> 
