@@ -1,0 +1,51 @@
+.container {
+  padding: 20px;
+  width: 100%;
+  height: 60vh;
+  background-image: url(../images/back-about.jpeg);
+  background-size: contain;
+}
+.back-color{
+  background-color: rgba(0, 0, 0, 0.818);
+}
+.container2 {
+  padding: 20px;
+  width: 80%;
+  height: 70vh;
+  background-image: url(../images/fundo-teste.avif);
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.about-us-content {
+  background: #1f2029c9;
+  padding: 20px;
+  box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.17);
+  width: 40%;
+  height: 50vh;
+}
+.about-us-content2 {
+  background: #1f2029d4;
+  padding: 20px;
+  box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.17);
+  width: 40%;
+  height: 50vh;
+}
+
+.about-us-content h2 {
+  color: #ffffff;
+  padding-bottom: 4dvb;
+}
+
+.about-us-content span {
+  color: #fec601ff;
+}
+.row {
+  column-gap: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+

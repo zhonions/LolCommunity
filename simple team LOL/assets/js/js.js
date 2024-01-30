@@ -1,3 +1,6 @@
+const loginModal = document.getElementById("loginModal");
+loginModal.style.display = "none";
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -19,12 +22,16 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";  
 }
+let toggleModal = document.getElementById("toggleModal");
 
-function toggleModal() {
-  var modal = document.getElementById("loginModal");
-  modal.style.display = modal.style.display === "none" ? "block" : "none";
-  document.getElementById("loginModal").style.visibility = "visible";
+toggleModal.addEventListener("click", () => {
+  loginModal.style.display = loginModal.style.display === "none" ? "flex" : "none";
+});
+const closeButton = document.getElementById("closeButton");
+function closeModal() {
+  loginModal.style.display = "none";
 }
+closeButton.addEventListener("click", closeModal);
 
 setInterval(()=>{
   plusSlides(1)
