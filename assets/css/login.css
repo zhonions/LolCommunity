@@ -6,9 +6,9 @@
   transform: translate(-50%, -50%);
   color: white;
   background-color: #232930d6;
-  max-width: 300px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 24rem;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
   border-bottom: 4px solid  #fec601ff;
 }
 

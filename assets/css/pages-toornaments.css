@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.content-toornaments {
+  background: #1f2029c9;
+  padding: 10px;
+  text-transform: uppercase;
+  box-shadow: 0px 7px 16px 0px rgba(0, 0, 0, 0.17);
+  width: 50%;
+  height: 50vh;
+  border-top: 5px solid  #fec601ff;
+}
+.content-toornaments p a{
+  text-decoration: none;
+  color: rgb(0, 110, 255);
+}
+
+.content-toornaments h1 {
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+.content-toornaments span {
+  color: #fec601ff;
+  padding-bottom: 20px;
+}
+
+
